@@ -3,11 +3,14 @@ body{
     margin: 20px 30px;
 }
 
-h2{
-    font-size: 20px;
-    font-weight: bold;
+h3{
+    font-size: 30px;
+    font-weight: bolder;
 }
 
+.menu-container{
+    display: grid;
+}
 .menu-list{
     list-style: none;
     display: flex;
@@ -15,16 +18,25 @@ h2{
     flex-wrap: wrap;
 }
 
-.menu-card {
-    width: auto;
+#menu-card {
+    padding: 25px;
     max-width: 250px;
+    max-height: 250px;
 }
-img {
-    width: auto;
-    height: auto;
+    
+.card-image {
+    width: 100%;
+    height: 100%;
     margin-bottom: 5px;
 }
 
+img[src$=".images/order-images/"]{
+    object-fit: contain;
+    object-position: top;
+}
+
+
+/*　メモこれ　*/
 
 
 .card-body {
