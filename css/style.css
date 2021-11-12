@@ -1,26 +1,37 @@
 @charset "UFT-8";
 body{
-
-    padding: 1rem;
+    padding: 10px;
 }
 
+.menu-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-card {
+    max-height: ;
+    max-width: 250px;
+}
 img {
-    width: 30%;
-    height: 30%;
-    margin-bottom: 2rem;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 5px;
 }
 
 img[scr$="./images/order-images/karaage.jpeg"]{
-    width: 15%;
-    height: 15%;
+    width: 25%;
+    height: 25%;
 }
 
 .card-body {
-    margin-bottom: -0.5rem;
+    margin-bottom: -1px;
     color: #000;
 }
 
-.option-info .omakase-info{
+.option-info,.omakase-info{
     color: rgb(129, 129, 129);
     font-size: 14px;
 }
